@@ -1,0 +1,21 @@
+{
+    "name": "Garlic cms core",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chung Anh",
+            "email": "chunganhbk@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GarlicCMS\\Modules\\Core\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
