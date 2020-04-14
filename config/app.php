@@ -167,7 +167,7 @@ return [
          */
         Collective\Html\HtmlServiceProvider::class,
 
-        GarlicCMS\Modules\Core\Provider\ModuleServiceProvider::class,
+        GarlicCMS\Core\Providers\CoreServiceProvider::class,
 
         /*
          * Application Service Providers...
