@@ -16,6 +16,7 @@
         "laravel/tinker": "^2.0",
         "laravelcollective/html": "^6.1",
         "maatwebsite/laravel-sidebar": "^2.3",
+        "nwidart/laravel-modules": "^7.1",
         "spatie/laravel-translatable": "^4.3"
     },
     "require-dev": {
@@ -38,8 +39,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "GarlicCMS\\": "modules/",
-            "Pingpong\\Modules\\": "pingpong/"
+            "GarlicCMS\\": "modules/"
         },
         "classmap": [
             "database/seeds",
